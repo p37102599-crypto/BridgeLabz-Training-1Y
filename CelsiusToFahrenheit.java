@@ -4,7 +4,8 @@ public class CelsiusToFahrenheit{
 		Scanner sc = new Scanner(System.in);
 		double celsius = sc.nextDouble();
 		double Fahrenheit = (celsius*9/5)+32;
-		System.out.println("Temperature in Fehrenheit = "+Fahrenheit);
+	System.out.println("Temperature in Fehrenheit = "+ Fahrenheit);
 		}
 		}
+
 	
