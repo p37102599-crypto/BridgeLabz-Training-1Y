@@ -1,0 +1,24 @@
+package BankingSystem;
+class SavingsAccount extends BankAccount implements Loanable {
+
+    private double loanAmount;
+
+    public SavingsAccount(String accNo, String name, double balance) {
+        super(accNo, name, balance);
+    }
+
+    @Override
+    public double calculateInterest() {
+        return balance * 0.04; // 4% interest
+    }
+
+    @Override
+    public void applyForLoan(double amount) {
+        loanAmount = amount;
+    }
+
+    @Override
+    public boolean calculateLoanEligibility() {
+        return balance >= 5000;
+    }
+}
