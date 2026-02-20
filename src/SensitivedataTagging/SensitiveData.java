@@ -1,0 +1,3 @@
+package SensitivedataTagging;
+interface SensitiveData {
+}

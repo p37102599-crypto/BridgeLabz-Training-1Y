@@ -1,0 +1,3 @@
+package BackupSerializable;
+interface BackupSerializable {
+}
